@@ -44,6 +44,7 @@
 }
 
 .header__logo-img {
+  display: block;
   width: 148px;
   height: 105px;
   flex-shrink: 0;
@@ -67,12 +68,21 @@
 }
 
 .cover {
+ 
+  box-sizing: border-box;
+  width: max-content;
   
-  background-image: url('../images/cover.jpg');
-  background-repeat: no-repeat;
-  background-size: 100%;
+  
 }
 
+.cover__image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: contain; 
+  display: flex;
+  display: flex;
+  flex-shrink: 1;
+}
 
 
 
