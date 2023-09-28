@@ -68,21 +68,18 @@
 }
 
 .cover {
- 
-  box-sizing: border-box;
-  width: max-content;
+  
+  /* margin-bottom: 180px;
+  padding-bottom: 50px; */
+  width: 100%;
+  background-image: url('../images/cover.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   
   
 }
 
-.cover__image {
-  background-size: cover;
-  background-repeat: no-repeat;
-  object-fit: contain; 
-  display: flex;
-  display: flex;
-  flex-shrink: 1;
-}
+
 
 
 
