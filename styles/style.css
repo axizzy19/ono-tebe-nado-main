@@ -129,12 +129,10 @@
 .bet-button {
   background: transparent;
   border: 1px solid #FFF;
+  padding: 11px 26px;
+  margin: 11px 26px;
 }
 
-.button__text {
-  margin: 11px 26px;
-  line-height: normal;
-}
 
 
 .lots {
