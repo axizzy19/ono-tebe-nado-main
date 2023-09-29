@@ -34,7 +34,7 @@
         />
       </a>
 
-      <info class="info__menu">
+      <div class="info__menu">
         <address class="address">
           <a class="info__menu-item" href="tel: +99995555555"
             >+9 999 555 5555</a
@@ -46,132 +46,135 @@
         <p class="address info__menu-item-not">
           наб. Принсенграхт 263-265, Амстердам
         </p>
-      </info>
+      </div>
     </header>
-    <section class="cover">
-      <div class="overlay"></div>
-      <h1 class="cover__title">
-        <span-string class="accent-span">
-          <span class="letter-spacing">О</span
-          ><span-letter-spacing class="letter-spacing-extended"
-            >но</span-letter-spacing
-          >
-        </span-string>
-        <span-string class="accent-span text-center">
-          <span class="letter-spacing">те</span
-          ><span-letter-spacing class="letter-spacing-extended"
-            >бе</span-letter-spacing
-          >
-        </span-string>
-        <span-string class="accent-span text-right">
-          <span-letter-spacing class="letter-spacing-extended"
-            >н</span-letter-spacing
-          ><span class="letter-spacing">ад</span
-          ><span class="no-letter-spacing">о</span>
-        </span-string>
-      </h1>
-      <cover-description class="cover__description">
-        <p class="cover__description-text">
-          Аукцион вещей, в которые никто не верил
-        </p>
-        <button class="bet-button">
-          <p class="button__text cover__description">сделать ставку</p>
-        </button>
-      </cover-description>
-    </section>
-
-    <lots class="lots">
-      <h2 class="lots__heading">Лоты</h2>
-      <nav>
-        <ul class="lots__card-list">
-          <li class="lots__card-list-item">
-            <div class="card__link">
-              <article class="card card_type_film">
-                <div class="overlay"></div>
-                <h3 class="card__title">
-                  Фильм режиссёра, который бросил киношколу
-                </h3>
-                <p class="card__text">
-                  Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
-                  ставка, если бы вы не знали, что режиссёр — Пол Томас
-                  Андерсон?
-                </p>
-              </article>
-            </div>
-          </li>
-          <li class="lots__card-list-item">
-            <div class="card__link">
-              <article class="card card_type_book">
-                <div class="overlay"></div>
-                <h3 class="card__title">
-                  Книга, где описан один скучный день из жизни рекламного агента
-                </h3>
-                <p class="card__text">
-                  Объёмом почти в тысячу страниц. Иногда без знаков препинания и
-                  с переходами на древнеанглийский. В ней одновременно
-                  рассказывается о 16 июня 1904 года и об истории литературы,
-                  начиная с античных времён. И это всё накладывается на
-                  эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
-                  Джеймса Джойса?
-                </p>
-              </article>
-            </div>
-          </li>
-          <li class="lots__card-list-item">
-            <div class="card__link">
-              <article class="card card_type_picture">
-                <div class="overlay"></div>
-                <h3 class="card__title">
-                  Картина, которую повторит даже 5-летний сын маминой подруги
-                </h3>
-                <p class="card__text">
-                  Ну действительно, там линия, тут кружочек, а здесь и вовсе
-                  что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
-                  котиков… Сколько бы вы на такое поставили, если бы не знали,
-                  что это — одна из революционных работ Кандинского?
-                </p>
-              </article>
-            </div>
-          </li>
-        </ul>
-      </nav>
-      <a class="lots__look-more-link info__menu-item" href="#0"
-        >посмотреть больше</a
-      >
-    </lots>
-
-    <section class="about">
-      <div class="logo__column">
-        <div class="logo__circle">
-          <img
-            class="logo-white"
-            ;
-            src="./images/logo-white.svg"
-            alt="Логотип"
-          />
-        </div>
-      </div>
-      <div class="about__column">
-        <h2 class="about__heading">Об аукционе</h2>
-        <div class="about__text">
-          <p class="about__text-item">
-            Здесь вы не встретите очередное пафосное собрание невероятно
-            дорогого антиквариата. Наши лоты вообще не должны были попасть ни на
-            один аукцион. Потому что кому нужен дневник девочки-подростка или
-            картина, которую может нарисовать даже ребёнок? Кому нужны все эти
-            странные вещи, созданные любителями?
+    <main>
+        <section class="cover">
+        <div class="overlay"></div>
+        <h1 class="cover__title">
+          <span-string class="accent-span">
+            <span class="letter-spacing">О</span
+            ><span-letter-spacing class="letter-spacing-extended"
+              >но</span-letter-spacing
+            >
+          </span-string>
+          <span-string class="accent-span text-center">
+            <span class="letter-spacing">те</span
+            ><span-letter-spacing class="letter-spacing-extended"
+              >бе</span-letter-spacing
+            >
+          </span-string>
+          <span-string class="accent-span text-right">
+            <span-letter-spacing class="letter-spacing-extended"
+              >н</span-letter-spacing
+            ><span class="letter-spacing">ад</span
+            ><span class="no-letter-spacing">о</span>
+          </span-string>
+        </h1>
+        <cover-description class="cover__description">
+          <p class="cover__description-text">
+            Аукцион вещей, в которые никто не верил
           </p>
-          <p class="about__text-item">
-            Слишком сложные или, наоборот, слишком простые. Опережающие своё
-            время. В пух и прах растерзанные критиками. Непринятые и непонятые.
-            Когда-то они казались просто неудачными. Но, несмотря на критику,
-            кажущуюся простоту или сложность, сейчас без этих лотов невозможно
-            представить современную культуру. Когда в эти вещи не верил никто,
-            продолжали верить их создатели. И сейчас эти лоты стали культовыми.
-          </p>
+          <button class="bet-button">
+            <p class="button__text cover__description">сделать ставку</p>
+          </button>
+        </cover-description>
+      </section>
+
+      <lots class="lots">
+        <h2 class="lots__heading">Лоты</h2>
+        <nav>
+          <ul class="lots__card-list">
+            <li class="lots__card-list-item">
+              <div class="card__link">
+                <article class="card card_type_film">
+                  <div class="overlay"></div>
+                  <h3 class="card__title">
+                    Фильм режиссёра, который бросил киношколу
+                  </h3>
+                  <p class="card__text">
+                    Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
+                    ставка, если бы вы не знали, что режиссёр — Пол Томас
+                    Андерсон?
+                  </p>
+                </article>
+              </div>
+            </li>
+            <li class="lots__card-list-item">
+              <div class="card__link">
+                <article class="card card_type_book">
+                  <div class="overlay"></div>
+                  <h3 class="card__title">
+                    Книга, где описан один скучный день из жизни рекламного агента
+                  </h3>
+                  <p class="card__text">
+                    Объёмом почти в тысячу страниц. Иногда без знаков препинания и
+                    с переходами на древнеанглийский. В ней одновременно
+                    рассказывается о 16 июня 1904 года и об истории литературы,
+                    начиная с античных времён. И это всё накладывается на
+                    эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
+                    Джеймса Джойса?
+                  </p>
+                </article>
+              </div>
+            </li>
+            <li class="lots__card-list-item">
+              <div class="card__link">
+                <article class="card card_type_picture">
+                  <div class="overlay"></div>
+                  <h3 class="card__title">
+                    Картина, которую повторит даже 5-летний сын маминой подруги
+                  </h3>
+                  <p class="card__text">
+                    Ну действительно, там линия, тут кружочек, а здесь и вовсе
+                    что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
+                    котиков… Сколько бы вы на такое поставили, если бы не знали,
+                    что это — одна из революционных работ Кандинского?
+                  </p>
+                </article>
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <a class="lots__look-more-link info__menu-item" href="#0"
+          >посмотреть больше</a
+        >
+      </lots>
+
+      <section class="about">
+        <div class="logo__column">
+          <div class="logo__circle">
+            <img
+              class="logo-white"
+              ;
+              src="./images/logo-white.svg"
+              alt="Логотип"
+            />
+          </div>
         </div>
-      </div>
-    </section>
+        <div class="about__column">
+          <h2 class="about__heading">Об аукционе</h2>
+          <div class="about__text">
+            <p class="about__text-item">
+              Здесь вы не встретите очередное пафосное собрание невероятно
+              дорогого антиквариата. Наши лоты вообще не должны были попасть ни на
+              один аукцион. Потому что кому нужен дневник девочки-подростка или
+              картина, которую может нарисовать даже ребёнок? Кому нужны все эти
+              странные вещи, созданные любителями?
+            </p>
+            <p class="about__text-item">
+              Слишком сложные или, наоборот, слишком простые. Опережающие своё
+              время. В пух и прах растерзанные критиками. Непринятые и непонятые.
+              Когда-то они казались просто неудачными. Но, несмотря на критику,
+              кажущуюся простоту или сложность, сейчас без этих лотов невозможно
+              представить современную культуру. Когда в эти вещи не верил никто,
+              продолжали верить их создатели. И сейчас эти лоты стали культовыми.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    
 
     <footer class="footer address">
       <div class="info__menu">
